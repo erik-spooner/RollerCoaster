@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031F91C32206456300EE1821 /* Cart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031F91C12206456300EE1821 /* Cart.cpp */; };
+		031F91C622064E9100EE1821 /* RollerCoasterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031F91C422064E9100EE1821 /* RollerCoasterScene.cpp */; };
+		03261464220D659C0013508F /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03261462220D659C0013508F /* Audio.cpp */; };
+		035A4EE023DD7A760080C940 /* libirrklang.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 03FE4CBC220E186F00B2F6BF /* libirrklang.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0387918B21EE82E40009AB64 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0387917F21EE82E40009AB64 /* Camera.cpp */; };
+		0387918C21EE82E40009AB64 /* NURBS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0387918021EE82E40009AB64 /* NURBS.cpp */; };
+		0387918D21EE82E40009AB64 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0387918321EE82E40009AB64 /* Shader.cpp */; };
+		0387918E21EE82E40009AB64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0387918721EE82E40009AB64 /* main.cpp */; };
+		0387918F21EE82E40009AB64 /* SceneObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0387918921EE82E40009AB64 /* SceneObject.cpp */; };
+		0387919421EE83420009AB64 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0387919321EE83420009AB64 /* OpenGL.framework */; };
+		0387919621EE83500009AB64 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0387919521EE83500009AB64 /* libglfw.3.2.dylib */; };
+		03CE2B50290B0E7400F08B74 /* SceneObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CE2B4F290B0E7400F08B74 /* SceneObject.cpp */; };
+		03CE2B55290B0E9000F08B74 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CE2B51290B0E9000F08B74 /* Audio.cpp */; };
+		03CE2B56290B0E9000F08B74 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CE2B53290B0E9000F08B74 /* Camera.cpp */; };
+		03CE2B59290B0F8700F08B74 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CE2B57290B0F8700F08B74 /* Timer.cpp */; };
+		03F6308122113C7200C933CF /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03F6307F22113C7200C933CF /* Timer.cpp */; };
+		03FE4CBD220E186F00B2F6BF /* libirrklang.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE4CBC220E186F00B2F6BF /* libirrklang.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		035A4EE123DD7A760080C940 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				035A4EE023DD7A760080C940 /* libirrklang.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0387917321EE82B00009AB64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		030DC51E220A372E00BBA974 /* Track.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Track.txt; sourceTree = "<group>"; };
+		031F91C12206456300EE1821 /* Cart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cart.cpp; sourceTree = "<group>"; };
+		031F91C22206456300EE1821 /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		031F91C422064E9100EE1821 /* RollerCoasterScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RollerCoasterScene.cpp; sourceTree = "<group>"; };
+		031F91C522064E9100EE1821 /* RollerCoasterScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollerCoasterScene.h; sourceTree = "<group>"; };
+		03261462220D659C0013508F /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		03261463220D659C0013508F /* Audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		03375EB12909F75B00C6E1F4 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		0387917521EE82B00009AB64 /* AnimationAssignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimationAssignment1; sourceTree = BUILT_PRODUCTS_DIR; };
+		0387917F21EE82E40009AB64 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		0387918021EE82E40009AB64 /* NURBS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NURBS.cpp; sourceTree = "<group>"; };
+		0387918121EE82E40009AB64 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		0387918221EE82E40009AB64 /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		0387918321EE82E40009AB64 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		0387918421EE82E40009AB64 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		0387918521EE82E40009AB64 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		0387918621EE82E40009AB64 /* NURBS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NURBS.h; sourceTree = "<group>"; };
+		0387918721EE82E40009AB64 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0387918821EE82E40009AB64 /* SceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneObject.h; sourceTree = "<group>"; };
+		0387918921EE82E40009AB64 /* SceneObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneObject.cpp; sourceTree = "<group>"; };
+		0387918A21EE82E40009AB64 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		0387919321EE83420009AB64 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0387919521EE83500009AB64 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		03AEA11F21FA762B003764EE /* nlohmann */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nlohmann; sourceTree = "<group>"; };
+		03CE2B4E290B0E7400F08B74 /* SceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneObject.h; sourceTree = "<group>"; };
+		03CE2B4F290B0E7400F08B74 /* SceneObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneObject.cpp; sourceTree = "<group>"; };
+		03CE2B51290B0E9000F08B74 /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		03CE2B52290B0E9000F08B74 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		03CE2B53290B0E9000F08B74 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		03CE2B54290B0E9000F08B74 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		03CE2B57290B0F8700F08B74 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		03CE2B58290B0F8700F08B74 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		03DDE134268D124A00B437D8 /* BigOne.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BigOne.wav; path = assets/BigOne.wav; sourceTree = "<group>"; };
+		03DDE135268D124B00B437D8 /* Group.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Group.wav; path = assets/Group.wav; sourceTree = "<group>"; };
+		03DDE136268D124B00B437D8 /* Scream1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scream1.wav; path = assets/Scream1.wav; sourceTree = "<group>"; };
+		03DDE137268D124B00B437D8 /* Scream2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scream2.wav; path = assets/Scream2.wav; sourceTree = "<group>"; };
+		03F6307F22113C7200C933CF /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		03F6308022113C7200C933CF /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		03F6308222116A2300C933CF /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		03FE4CBC220E186F00B2F6BF /* libirrklang.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirrklang.dylib; path = Libraries/libirrklang.dylib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0387917221EE82B00009AB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE4CBD220E186F00B2F6BF /* libirrklang.dylib in Frameworks */,
+				0387919621EE83500009AB64 /* libglfw.3.2.dylib in Frameworks */,
+				0387919421EE83420009AB64 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030DC51D220A371C00BBA974 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				030DC51E220A372E00BBA974 /* Track.txt */,
+				03DDE134268D124A00B437D8 /* BigOne.wav */,
+				03DDE135268D124B00B437D8 /* Group.wav */,
+				03DDE136268D124B00B437D8 /* Scream1.wav */,
+				03DDE137268D124B00B437D8 /* Scream2.wav */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		031F91C722064EA800EE1821 /* Assignment 1 */ = {
+			isa = PBXGroup;
+			children = (
+				03CE2B52290B0E9000F08B74 /* Audio.h */,
+				03CE2B51290B0E9000F08B74 /* Audio.cpp */,
+				03CE2B54290B0E9000F08B74 /* Camera.h */,
+				03CE2B53290B0E9000F08B74 /* Camera.cpp */,
+				031F91C22206456300EE1821 /* Cart.h */,
+				031F91C12206456300EE1821 /* Cart.cpp */,
+				0387918621EE82E40009AB64 /* NURBS.h */,
+				0387918021EE82E40009AB64 /* NURBS.cpp */,
+				031F91C522064E9100EE1821 /* RollerCoasterScene.h */,
+				031F91C422064E9100EE1821 /* RollerCoasterScene.cpp */,
+				03CE2B4E290B0E7400F08B74 /* SceneObject.h */,
+				03CE2B4F290B0E7400F08B74 /* SceneObject.cpp */,
+				03CE2B58290B0F8700F08B74 /* Timer.h */,
+				03CE2B57290B0F8700F08B74 /* Timer.cpp */,
+			);
+			name = "Assignment 1";
+			sourceTree = "<group>";
+		};
+		0387916C21EE82B00009AB64 = {
+			isa = PBXGroup;
+			children = (
+				03375EB12909F75B00C6E1F4 /* ReadMe.md */,
+				03FE4CBB220E184F00B2F6BF /* Libraries */,
+				0387917721EE82B00009AB64 /* Source */,
+				0387917621EE82B00009AB64 /* Products */,
+				0387919221EE83420009AB64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0387917621EE82B00009AB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0387917521EE82B00009AB64 /* AnimationAssignment1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0387917721EE82B00009AB64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				03F6308222116A2300C933CF /* CMakeLists.txt */,
+				030DC51D220A371C00BBA974 /* assets */,
+				031F91C722064EA800EE1821 /* Assignment 1 */,
+				03AEA11E21FA761B003764EE /* Extern */,
+				0387919721EE84620009AB64 /* Shaders */,
+				0387919021EE82E80009AB64 /* Main */,
+				0387918721EE82E40009AB64 /* main.cpp */,
+				0387918A21EE82E40009AB64 /* Utilities.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0387919021EE82E80009AB64 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0387918121EE82E40009AB64 /* Camera.h */,
+				0387917F21EE82E40009AB64 /* Camera.cpp */,
+				0387918821EE82E40009AB64 /* SceneObject.h */,
+				0387918921EE82E40009AB64 /* SceneObject.cpp */,
+				03261462220D659C0013508F /* Audio.cpp */,
+				03261463220D659C0013508F /* Audio.h */,
+				03F6307F22113C7200C933CF /* Timer.cpp */,
+				03F6308022113C7200C933CF /* Timer.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0387919221EE83420009AB64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0387919521EE83500009AB64 /* libglfw.3.2.dylib */,
+				0387919321EE83420009AB64 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0387919721EE84620009AB64 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				0387918221EE82E40009AB64 /* fragment.glsl */,
+				0387918421EE82E40009AB64 /* vertex.glsl */,
+				0387918521EE82E40009AB64 /* Shader.h */,
+				0387918321EE82E40009AB64 /* Shader.cpp */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		03AEA11E21FA761B003764EE /* Extern */ = {
+			isa = PBXGroup;
+			children = (
+				03AEA11F21FA762B003764EE /* nlohmann */,
+			);
+			name = Extern;
+			sourceTree = "<group>";
+		};
+		03FE4CBB220E184F00B2F6BF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				03FE4CBC220E186F00B2F6BF /* libirrklang.dylib */,
+			);
+			name = Libraries;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0387917421EE82B00009AB64 /* AnimationAssignment1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0387917C21EE82B00009AB64 /* Build configuration list for PBXNativeTarget "AnimationAssignment1" */;
+			buildPhases = (
+				0387917121EE82B00009AB64 /* Sources */,
+				0387917221EE82B00009AB64 /* Frameworks */,
+				0387917321EE82B00009AB64 /* CopyFiles */,
+				035A4EE123DD7A760080C940 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationAssignment1;
+			productName = AnimationAssignment1;
+			productReference = 0387917521EE82B00009AB64 /* AnimationAssignment1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0387916D21EE82B00009AB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Erik Spooner";
+				TargetAttributes = {
+					0387917421EE82B00009AB64 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 0387917021EE82B00009AB64 /* Build configuration list for PBXProject "AnimationAssignment1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0387916C21EE82B00009AB64;
+			productRefGroup = 0387917621EE82B00009AB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0387917421EE82B00009AB64 /* AnimationAssignment1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0387917121EE82B00009AB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0387918B21EE82E40009AB64 /* Camera.cpp in Sources */,
+				0387918F21EE82E40009AB64 /* SceneObject.cpp in Sources */,
+				03CE2B59290B0F8700F08B74 /* Timer.cpp in Sources */,
+				03CE2B55290B0E9000F08B74 /* Audio.cpp in Sources */,
+				0387918D21EE82E40009AB64 /* Shader.cpp in Sources */,
+				03CE2B56290B0E9000F08B74 /* Camera.cpp in Sources */,
+				03CE2B50290B0E7400F08B74 /* SceneObject.cpp in Sources */,
+				031F91C32206456300EE1821 /* Cart.cpp in Sources */,
+				03261464220D659C0013508F /* Audio.cpp in Sources */,
+				0387918E21EE82E40009AB64 /* main.cpp in Sources */,
+				03F6308122113C7200C933CF /* Timer.cpp in Sources */,
+				031F91C622064E9100EE1821 /* RollerCoasterScene.cpp in Sources */,
+				0387918C21EE82E40009AB64 /* NURBS.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0387917A21EE82B00009AB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0387917B21EE82B00009AB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0387917D21EE82B00009AB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = arm64;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/include,
+					/usr/local/Cellar/glm/0.9.9.2/include/glm,
+					/usr/local/include,
+					"/Users/erik/Developer/Audio/irrKlang-64bit-1.6.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					"$(PROJECT_DIR)/Libraries",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0387917E21EE82B00009AB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = arm64;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/include,
+					/usr/local/Cellar/glm/0.9.9.2/include/glm,
+					/usr/local/include,
+					"/Users/erik/Developer/Audio/irrKlang-64bit-1.6.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					"$(PROJECT_DIR)/Libraries",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0387917021EE82B00009AB64 /* Build configuration list for PBXProject "AnimationAssignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0387917A21EE82B00009AB64 /* Debug */,
+				0387917B21EE82B00009AB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0387917C21EE82B00009AB64 /* Build configuration list for PBXNativeTarget "AnimationAssignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0387917D21EE82B00009AB64 /* Debug */,
+				0387917E21EE82B00009AB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0387916D21EE82B00009AB64 /* Project object */;
+}
